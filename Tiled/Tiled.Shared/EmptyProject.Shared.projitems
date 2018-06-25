@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>948f435c-598f-4785-a24c-c97b972843a8</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Tiled</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighScoreLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HowToPlayLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelSelectorLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VictoryLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YouDiedLayer.cs" />
+  </ItemGroup>
+</Project>
